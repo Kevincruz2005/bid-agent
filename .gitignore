@@ -1,0 +1,5 @@
+node_modules/
+.agent.json
+.env
+*.log
+_implementation_log.md

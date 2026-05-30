@@ -1,0 +1,13 @@
+{
+  "name": "bid-achla-agent",
+  "version": "1.0.0",
+  "description": "ACH-LA strategy agent for BID Protocol PvP hackathon",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
