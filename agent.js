@@ -248,7 +248,7 @@ const S = {
 // ── Strategy constants ────────────────────────────────────────────────────────
 // Tune these after observing the first 3–5 games (see POST-LAUNCH CALIBRATION).
 const SLIPPAGE        = 0.005;   // 0.5% max price impact per order
-const BATTLE_BUY_CAP  = 90_000; // conservative ceiling under 100k protocol limit
+const BATTLE_BUY_CAP  = 950;    // conservative ceiling under 1k protocol limit
 const MIN_TRADE       = 10;     // skip decisions below $10 USDC (avoid dust)
 const POSITION_FRAC   = 0.15;   // deploy 15% of available USDC per buy signal
 const WARMUP_SAMPLES  = 15;     // minimum price history entries before trading
