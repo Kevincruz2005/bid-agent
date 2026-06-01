@@ -3,3 +3,5 @@ node_modules/
 .env
 *.log
 _implementation_log.md
+BID_ACHLA_FINAL.md
+.env.example
